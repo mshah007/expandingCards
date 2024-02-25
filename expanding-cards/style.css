@@ -1,0 +1,21 @@
+body {
+  background-color: #000000;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.panel img {
+  width: 70px;
+  height: 80vh;
+  border-radius: 50px;
+  margin: 100px 10px;
+  cursor: pointer;
+  transition: all 0.7s ease-out;
+}
+.active img {
+  width: 400px;
+  transition: 0.7;
+}
